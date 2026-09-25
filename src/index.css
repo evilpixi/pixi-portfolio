@@ -1,0 +1,115 @@
+:root {
+  /* Palette: violet (primary) + sky blue (secondary) on a violet-tinted dark base */
+  --primary: #8b5cf6;
+  --primary-strong: #7c3aed;
+  --primary-light: #c4b5fd;
+  --primary-soft: rgba(139, 92, 246, 0.14);
+  --secondary: #38bdf8;
+  --secondary-light: #7dd3fc;
+  --secondary-soft: rgba(56, 189, 248, 0.12);
+  --gradient: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+
+  --bg: #0f0b1a;
+  --surface: #171127;
+  --surface-2: #1f1734;
+  --border: #2d2346;
+  --text: #f3f0fb;
+  --text-muted: #a9a2c3;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 12px 32px -12px rgba(0, 0, 0, 0.6);
+  --content-width: 1040px;
+
+  --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 17px/160% var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(900px 480px at 10% -10%, rgba(139, 92, 246, 0.18), transparent 60%),
+    radial-gradient(700px 420px at 100% 0%, rgba(56, 189, 248, 0.1), transparent 60%);
+  background-repeat: no-repeat;
+  color: var(--text);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  line-height: 115%;
+  color: var(--text);
+}
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 0 0 16px;
+  @media (max-width: 1024px) {
+    font-size: 38px;
+  }
+}
+h2 {
+  font-size: 28px;
+  letter-spacing: -0.4px;
+  margin: 0 0 12px;
+  @media (max-width: 1024px) {
+    font-size: 22px;
+  }
+}
+h3 {
+  font-size: 19px;
+  margin: 0 0 6px;
+}
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+a:hover {
+  color: var(--secondary-light);
+}
+
+:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
