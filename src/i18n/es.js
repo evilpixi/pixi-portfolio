@@ -54,46 +54,61 @@ export default {
     ],
     experienceTitle: 'Experiencia',
     experience: [
-      // TODO: completar períodos y revisar cargos, descripciones y tecnologías
       {
-        period: 'Actualidad',
+        period: 'Mar 2025 — Actualidad',
+        role: 'Senior fullstack developer',
+        company: 'DEGA',
+        description:
+          'Lidero el equipo de desarrollo de una simulación fullstack de IA y cripto. Creé el sistema de memoria de los agentes de IA y su conexión con un entorno de simulación 3D, y diseñé la parte de simulación de la solución coordinando con otros equipos.',
+        stack: [
+          'TypeScript',
+          'Node.js',
+          'Phaser',
+          'PostgreSQL',
+          'WebSockets',
+          'LangGraph',
+          'Docker',
+        ],
+      },
+      {
+        period: 'Mar 2024 — Ago 2024',
         role: 'Fullstack developer',
         company: 'DEGA',
         description:
-          'Desarrollo fullstack con foco en front end: interfaces en React conectadas a servicios .NET mediante APIs REST, con bases de datos SQL y entornos contenerizados con Docker.',
-        stack: ['React', 'TypeScript', '.NET / C#', 'REST API', 'SQL', 'Docker'],
+          'Lideré el gameplay, la UI y la arquitectura de Dega Survivors, un juego web. La calidad de la entrega consiguió financiamiento extra que extendió el desarrollo cuatro meses. También fui asesor tecnológico y entregué builds a medida para tres clientes.',
+        stack: ['JavaScript', 'TypeScript', 'Phaser', 'React', 'Node.js', 'Git / GitHub'],
       },
       {
-        period: '',
-        role: 'Desarrollador',
+        period: 'Abr 2022 — Ene 2024',
+        role: 'Software engineer',
         company: 'Globant',
         description:
-          'Desarrollo front end en equipos ágiles para clientes internacionales, construyendo interfaces en React que consumen APIs REST y trabajando con flujos de revisión de código en GitHub.',
-        stack: ['React', 'JavaScript', 'REST API', 'Git / GitHub'],
+          'Diseñé y estilicé pantallas y widgets de UI para Madden NFL 23 y 24, trabajando con diseñadores UX/UI y desarrolladores back end. Manejé las transiciones de estado de la UI y escribí una guía de buenas prácticas para futuros technical artists.',
+        stack: ['UI', 'Agile / Jira', 'Perforce'],
       },
       {
-        period: '',
-        role: 'Desarrollador',
-        company: '3ogs',
+        period: 'Mar 2021 — Sep 2021',
+        role: 'Frontend developer',
+        company: '3OGS',
         description:
-          'Desarrollo de videojuegos en uno de los estudios más importantes de Argentina, programando gameplay y herramientas internas.',
-        stack: ['Unity', 'C#', 'Git / GitHub'],
+          'Desarrollé el front end de una app web de dibujo y de una app web para aprender idiomas, mejorando un 50% el rendimiento de la app de dibujo.',
+        stack: ['React', 'Phaser', 'JavaScript', 'Kanban', 'Git / GitHub'],
       },
       {
-        period: '',
-        role: 'Desarrollador',
-        company: 'Livemedia',
+        period: 'Mar 2020 — Sep 2021',
+        role: 'Frontend developer / Game developer',
+        company: 'LiveMedia',
         description:
-          'Desarrollo de sitios y aplicaciones web interactivas, del maquetado a los servicios que las alimentan.',
-        stack: ['JavaScript', 'HTML y CSS', 'Node.js'],
+          'Desarrollé seis proyectos, entre ellos un juego para un torneo de más de 50.000 participantes, optimizado para rendir un 200% mejor en dispositivos viejos. También hice libros interactivos y campañas publicitarias web, y fui mentor de game developers junior.',
+        stack: ['Phaser', 'JavaScript', 'Unity', 'C#', 'HTML y CSS', 'Photoshop / Illustrator'],
       },
       {
-        period: '',
-        role: 'Desarrollador',
-        company: 'ITSynch',
+        period: 'Mar 2019 — Nov 2019',
+        role: 'Fullstack developer',
+        company: 'IT Synch',
         description:
-          'Desarrollo de aplicaciones empresariales en .NET, diseñando APIs REST y modelando datos en bases SQL.',
-        stack: ['.NET / C#', 'REST API', 'SQL'],
+          'Desarrollé y mantuve funcionalidades de un software de gestión de cruceros, con back end en .NET siguiendo principios SOLID y front end en AngularJS.',
+        stack: ['.NET / C#', 'AngularJS', 'Docker', 'SQL Server', 'Oracle SQL'],
       },
       {
         period: '2021 — Actualidad',

@@ -54,46 +54,61 @@ export default {
     ],
     experienceTitle: 'Experience',
     experience: [
-      // TODO: fill in periods and review roles, descriptions and technologies
       {
-        period: 'Present',
+        period: 'Mar 2025 — Present',
+        role: 'Senior fullstack developer',
+        company: 'DEGA',
+        description:
+          'Leading the development team of a crypto AI fullstack simulation. Built the memory system for AI agents and their connection to a 3D simulation environment, and designed the simulation side of the solution in sync with other teams.',
+        stack: [
+          'TypeScript',
+          'Node.js',
+          'Phaser',
+          'PostgreSQL',
+          'WebSockets',
+          'LangGraph',
+          'Docker',
+        ],
+      },
+      {
+        period: 'Mar 2024 — Aug 2024',
         role: 'Fullstack developer',
         company: 'DEGA',
         description:
-          'Fullstack development with a focus on front end: React interfaces connected to .NET services through REST APIs, backed by SQL databases and containerized with Docker.',
-        stack: ['React', 'TypeScript', '.NET / C#', 'REST API', 'SQL', 'Docker'],
+          'Led the gameplay, UI and software architecture of Dega Survivors, a web game. The quality of the delivery secured extra funding that extended development by four months. Also acted as technology advisor and shipped tailored builds for three clients.',
+        stack: ['JavaScript', 'TypeScript', 'Phaser', 'React', 'Node.js', 'Git / GitHub'],
       },
       {
-        period: '',
-        role: 'Developer',
+        period: 'Apr 2022 — Jan 2024',
+        role: 'Software engineer',
         company: 'Globant',
         description:
-          'Front end development in agile teams for international clients, building React interfaces on top of REST APIs and working with code review flows on GitHub.',
-        stack: ['React', 'JavaScript', 'REST API', 'Git / GitHub'],
+          'Designed and styled UI screens and widgets for Madden NFL 23 and 24, working with UX/UI designers and back end developers. Managed UI state transitions and wrote a guide of best practices for future technical artists.',
+        stack: ['UI', 'Agile / Jira', 'Perforce'],
       },
       {
-        period: '',
-        role: 'Developer',
-        company: '3ogs',
+        period: 'Mar 2021 — Sep 2021',
+        role: 'Frontend developer',
+        company: '3OGS',
         description:
-          "Game development at one of Argentina's leading studios, programming gameplay and internal tools.",
-        stack: ['Unity', 'C#', 'Git / GitHub'],
+          'Built the front end of a drawing web app and a language learning web app, improving the drawing app performance by 50%.',
+        stack: ['React', 'Phaser', 'JavaScript', 'Kanban', 'Git / GitHub'],
       },
       {
-        period: '',
-        role: 'Developer',
-        company: 'Livemedia',
+        period: 'Mar 2020 — Sep 2021',
+        role: 'Frontend developer / Game developer',
+        company: 'LiveMedia',
         description:
-          'Built interactive websites and web applications, from the markup to the services powering them.',
-        stack: ['JavaScript', 'HTML & CSS', 'Node.js'],
+          'Developed six projects, including a game for a tournament with over 50,000 participants optimized to run 200% better on older devices. Also built interactive books and web ad campaigns, and mentored junior game developers.',
+        stack: ['Phaser', 'JavaScript', 'Unity', 'C#', 'HTML & CSS', 'Photoshop / Illustrator'],
       },
       {
-        period: '',
-        role: 'Developer',
-        company: 'ITSynch',
+        period: 'Mar 2019 — Nov 2019',
+        role: 'Fullstack developer',
+        company: 'IT Synch',
         description:
-          'Built enterprise applications in .NET, designing REST APIs and modeling data in SQL databases.',
-        stack: ['.NET / C#', 'REST API', 'SQL'],
+          'Developed and maintained features for cruise management software, with a .NET back end following SOLID principles and an AngularJS front end.',
+        stack: ['.NET / C#', 'AngularJS', 'Docker', 'SQL Server', 'Oracle SQL'],
       },
       {
         period: '2021 — Present',
